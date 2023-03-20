@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SchoolGo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/59eb99f426.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <div style="width: 80%; margin: 0 auto; text-align: center;">
+            <h1>SchoolGo</h1>
+        </div>
+        <div id="intro-container">
+            <p id="intro-text">SchoolGo is a chatbot who is an expert on various topics covered in schools and universities.</p>
+        </div>
+        <div id="chat-container">
+            <ul id="chat-messages"></ul>
+            <div class="chat-input">
+                <form id="chat-form">
+                    <input type="text" name="user-input" id="user-input" placeholder="Type your message here...">
+                    <button type="submit"><span class="fa-solid fa-paper-plane"></span></button>
+                </form>
+                <button id="reset-button" onclick="reset()"><span class="fa-solid fa-trash"></span></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
