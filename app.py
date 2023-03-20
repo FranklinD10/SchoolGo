@@ -10,7 +10,7 @@ def ask_gpt(text):
     prompt = f"User: {text}\n“SchoolGo is a chatbot who is an expert on various topics covered in schools and universities. The bot is very conversational and funny. SchoolGo:"
     try:
         response = openai.Completion.create(
-            engine="text-davinci-003", prompt=prompt, max_tokens=100, stop="\nUser:", temperature=0, top_p=1.0,  frequency_penalty=0.0,  presence_penalty=0.0,
+            engine="text-davinci-003", prompt=prompt, max_tokens=100, stop="\nUser:", temperature=0.2, top_p=1.0,  frequency_penalty=0.0,  presence_penalty=0.0,
         )
         message = response.choices[0].text.strip()
         return message
