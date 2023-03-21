@@ -10,6 +10,20 @@ _SchoolGo_ is a chatbot app that provides helpful information and guidance to st
 - Text-to-voice output: The app provides responses to user input using text-to-voice conversion.
 - Intelligent responses: SchoolGo uses ChatGPT API to provide intelligent and informative responses to user input.
 
+some additional features to improve your web app:
+
+User Authentication: Consider adding a login/signup feature so that users can have their own personalized chat history and preferences.
+
+Chat History: Add the ability for users to see previous chat history with the chatbot.
+
+Personalization: Consider adding the ability for users to customize their chatbot experience, such as choosing a different chatbot persona or selecting different color themes.
+
+Voice Input: Add the ability for users to speak to the chatbot instead of typing out messages.
+
+Multi-Language Support: Add the ability for users to communicate with the chatbot in different languages.
+
+Rich Media Support: Add the ability for users to send images, videos, and other types of media to the chatbot.
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/FranklinD10/SchoolGo.git`
