@@ -45,3 +45,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 This project was inspired by the need to provide students with helpful information and guidance. Thanks to the developers of _SchoolGo_, namely, Franklin Davis, Jr. and Jickson Washington for building this app.
+
+## Techinical Description of App
+
+This is a web page that creates a chatbot interface called "SchoolGo". The interface includes a header, a main section with two containers, and a footer. The first container contains an introduction message about the chatbot. The second container contains a list of chat messages and a form to submit new messages. The CSS file contains styling for the various elements in the web page.
+
+In terms of functionality, the chatbot responds to messages and provides information on various topics related to schools and universities. The chatbot's responses are not included in the code provided and may be generated dynamically from a server or pre-defined in the JavaScript code.
