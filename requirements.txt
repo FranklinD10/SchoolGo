@@ -23,7 +23,7 @@ toml==0.10.2
 tqdm==4.66.3
 urllib3==2.6.0
 Werkzeug==3.1.4
-urllib3==1.26.7
+urllib3==2.6.0
 Werkzeug==3.1.4
 urllib3==2.6.0
 Werkzeug==3.1.4
