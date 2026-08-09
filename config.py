@@ -1,1 +1,12 @@
-OPENAI_API_KEY = "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"
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise ValueError(
+        "OPENAI_API_KEY environment variable is not set. "
+        "Please set it in your .env file or environment."
+    )
